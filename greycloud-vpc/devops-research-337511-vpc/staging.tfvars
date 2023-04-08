@@ -1,0 +1,9 @@
+project                         = "devops-research-337511"
+environment                     = "staging"
+region                          = "us-central1"
+create_subnet                   = true
+subnet_ip_cidr_range            = "172.28.100.0/24"
+create_secondary_ranges         = true
+pod_range_cidr                  = "10.199.36.0/22"
+svc_range_cidr                  = "10.199.40.0/23"
+enable_private_ip_google_access = true
